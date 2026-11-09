@@ -1,0 +1,14 @@
+# Build outputs
+/samsung-t5-unlock
+/samsung-t5-unlock-sanitize
+*.o
+
+# Static-analysis and editor artifacts
+*.plist
+compile_commands.json
+.cache/
+.idea/
+.vscode/
+
+# Interoperability research must never be published with the source tree.
+/research/
